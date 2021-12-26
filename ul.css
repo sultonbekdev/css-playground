@@ -1,0 +1,292 @@
+body{
+  margin: 0;
+  background: #E5E5E5;
+}
+.Book{
+  width: 100%;
+  height: 120px;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 121px 30px 125px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.kitob{
+  width: 205px;
+  height: 36px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  width: 1000px;
+height: 50px;
+background-color: #E5E5E5;;
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.chiziq{
+  width: 459px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid rgba(78, 78, 78, 0.05);
+box-sizing: border-box;
+border-radius: 10px;
+}
+.box{
+  width: 50px;
+  height: 21px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.box h1{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+.yurak{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  padding: 16px 15px;
+  box-sizing: border-box;
+}
+.arava{
+  width: 162px;
+height: 50px;
+background: #007E41;
+border-radius: 10px;
+padding: 12px 40px ;
+box-sizing: border-box;
+}
+.arava div{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+ul{
+  width: 688px;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 122px;
+margin-bottom: 15px;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(45, 45, 57, 0.8);
+}
+.olma img{
+  margin-left: 162px;
+}
+.Contener{
+  width: 1197px;
+  height: 558px;
+  background-color: #E5E5E5;
+  margin: 15px 121px 120px 150px;
+  padding: 70px 520px 30px 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+.exp{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #52555B;
+}
+.hap{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 106px;
+
+color: #14134F;
+}
+.nat{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 30px;
+color: #52555B;
+}
+
+.karobka{
+  width: 166px;
+height: 60px;
+background: #007E41;
+border-radius: 10px;
+margin-top: 44px;
+padding: 18px 41px;
+box-sizing: border-box;
+}
+.karobka a{
+  text-decoration:none;
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.qiz{
+  position: absolute;
+  top: 0px;
+  left: 600px;
+}
+.Quti{
+  width: 1083px;
+  height: 303px;
+  margin: 0 121px 120px 150px;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qizaloq{
+  width: 594px;
+  height: 303px;
+ transition: 1s linear;
+}
+.qizaloq:hover{
+  transform: scale(1.2);
+ transform: rotate(360deg);
+}
+.soz{
+  width: 384px;
+  height: 303px;
+  background-color: #E5E5E5;
+}
+.tx{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 46px;
+text-transform: capitalize;
+color: #14134F;
+}
+.tx1{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #52555B;
+margin-top: 20px;
+}
+.tx2{
+  font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+color: #52555B;
+margin-top: 4px;
+margin-bottom: 44px;
+}
+.Vu{
+  width: 144px;
+height: 56px;
+background: #007E41;
+border-radius: 10px;
+padding: 18px 26px;
+box-sizing: border-box;
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.nat span{
+  color: #007E41;
+}
+.enjoy{
+  width: 1083px;
+  height: 46px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 0 121px 50px 150px;
+}
+.enjoy i{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 46px; 
+  text-transform: capitalize;
+  color: #000000;
+}
+.enjoy b{
+  font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 46px;
+color: #000000;
+}
+.The{
+  width: 1200px;
+  height: 300px;
+display:flex ;
+justify-content: space-between;
+align-items: center;
+margin: 0 100px 50px 100px;
+}
+
+.the{
+  width: 218px;
+  height: 300px;
+  background: linear-gradient(330.51deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 33.6%, rgba(255, 255, 255, 0) 62.55%, rgba(255, 255, 255, 0.15) 99.25%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+  width: 690px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}

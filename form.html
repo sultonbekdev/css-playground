@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM ELEMENTLARI</title>
+  <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="Box">
+    <div class="text">
+      <h2>Responsive Registration <br> Form</h2>
+    </div>
+    <form action="#">
+      <input class="email" placeholder="Email" type="email" name="Email" required>
+      <input class="password" placeholder="Password" type="password" name="Password" required  >
+      <input class="password" placeholder="Re-type Password" type="password" name="Password" required  >
+      <div class="FL">
+        <input class="first" placeholder="First Name" type="text" name="name">
+        <input class="first" placeholder="Last Name" type="text" name="name">
+      </div>
+      <input  class="date"  type="date" name="date">
+      <div class="radio">
+        <div><input type="radio" name="radio" value="men" id="rd1">
+          <label for="rd1">Male</label></div>
+        <div><input type="radio" name="radio" value="women" id="rd2">
+          <label for="rd2">Female</label></div>
+      </div>
+      <select  class="select" name="SELECT" id="shahar">
+        <option disabled selected value="Viloyatni tanlang">Select a country</option>
+        <option value="Toshkent">Toshkent</option>
+        <option value="Bekobod">Bekobod</option>
+        <option value="Andijon">Andijon</option>
+        <option value="Navoiy">Navoiy</option>
+      </select>
+      <input class="button" type="submit" value="Register" >
+    </form>
+  </div>
+</body>
+</html>
